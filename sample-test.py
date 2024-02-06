@@ -1,5 +1,5 @@
 # Test Sum function
-from sample.py import Sum
+from sample import Sum
 
 def TestSum():
         assert Sum(2,3,5) == 10
