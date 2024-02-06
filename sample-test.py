@@ -1,8 +1,9 @@
-def SampleFunc():
-        print("Sample code to test circle ci feature")
+# Test Sum function
+from sample.py import Sum
 
-def Sum(a, b, c):
-        return a + b + c
+def TestSum():
+        assert Sum(2,3,5) == 10
+        print("Sum function verified")
 
 if __name__ == '__main__':
-        SampleFunc()
+        TestSum()
